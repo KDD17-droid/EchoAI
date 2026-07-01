@@ -68,7 +68,7 @@ speakBtn.addEventListener("click", () => {
     speechKey,
     speechRegion,
   );
-  speechConfig.speechSynthesisVoiceName = "en-GB-OllieMultilingualNeural";
+  speechConfig.speechSynthesisVoiceName = "en-GB-RyanNeural";
 
   const synthesizer = new SpeechSDK.SpeechSynthesizer(speechConfig);
 
